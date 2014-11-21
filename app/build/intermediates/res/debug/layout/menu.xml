@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="380dp"
+    android:layout_height="wrap_content"
+    android:alpha="0.95"
+    android:background="#3b3b3b"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/upContent1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent" >
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/nav_home"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/description1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:paddingLeft="80dp"
+            android:text="首页"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/nav_line"
+        tools:ignore="ContentDescription" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/upContent2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent" >
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/nav_profile"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:paddingLeft="80dp"
+            android:text="个人中心"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/nav_line"
+        tools:ignore="ContentDescription" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/upContent3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent" >
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/nav_explore"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/description3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:paddingLeft="80dp"
+            android:text="探索"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/nav_line"
+        tools:ignore="ContentDescription" >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/upContent4"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent" >
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/nav_setting"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/description4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center_vertical"
+            android:paddingLeft="80dp"
+            android:text="设置"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/hoss/AndroidStudioProjects/SuiShouYou/app/src/main/res/layout/menu.xml -->

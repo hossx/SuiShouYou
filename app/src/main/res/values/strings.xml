@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SuiShouYou</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_local_games">本地</string>
+    <string name="tab_recommendation_games">推荐</string>
+    <string name="tab_hunting_games">猎奇</string>
+    <string name="tab_setting">设置</string>
+    <string name="activity_fullscreen">全屏</string>
+
+    <!-- text name in setting page -->
+    <string name="setting">设置</string>
+    <string name="my_setting">我的设置</string>
+    <string name="account_manage">账号管理</string>
+    <string name="my_favor">个人爱好</string>
+    <string name="browsing_record">浏览记录</string>
+    <string name="client">客户端</string>
+    <string name="feed_back">意见反馈</string>
+    <string name="version_detect">检测更新</string>
+    <string name="about">关于</string>
+    <string name="poster">海报</string>
+
+    <!-- text name in local_games page. -->
+    <string name="local_games_category_name_1">休闲游戏</string>
+    <string name="local_games_category_name_2">体育游戏</string>
+    <string name="local_games_category_name_3">益智游戏</string>
+    <string name="local_games_category_name_4">棋牌游戏</string>
+    <string name="local_games_category_name_9">其他</string>
+
+    <drawable name="flow_page_bkcolor">#dadada</drawable>
+
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_explorer">ExplorerActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>
